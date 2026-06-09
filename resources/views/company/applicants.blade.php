@@ -127,7 +127,7 @@
     </div>
 </div>
 
-@push('scripts')
+
 <script>
     // Filter by status
     document.querySelectorAll('.filter-btn').forEach(button => {
@@ -203,6 +203,6 @@
         });
     });
 </script>
-@endpush
+
 
 @endsection

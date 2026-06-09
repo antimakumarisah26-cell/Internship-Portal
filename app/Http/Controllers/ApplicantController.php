@@ -68,6 +68,7 @@ class ApplicantController extends Controller
             
         } catch (\Exception $e) {
             DB::rollBack();
+            
             return response()->json([
                 'success' => false,
                 'message' => $e->getMessage()
